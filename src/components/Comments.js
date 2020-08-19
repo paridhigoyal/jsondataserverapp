@@ -4,7 +4,7 @@ export class Comments extends Component {
     render() {
         return (
             <div>
-                
+                Comments
             </div>
         )
     }

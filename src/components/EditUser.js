@@ -30,9 +30,10 @@ export class EditUser extends Component {
                 }
             },
             showForm: false
-        }
+        } 
+        this.handleChange = this.handleChange.bind(this);
     }
-
+   
     handleChange = (event) => {
         switch (event.target.name) {
             case 'name':
@@ -226,7 +227,7 @@ export class EditUser extends Component {
         );
     }
     render() {
-        console.log(this.props.value)
+        // console.log(this.props.value)
         return (
             <div>
                 <div>

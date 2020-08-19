@@ -6,16 +6,18 @@
   "users": [
     {
       "id": 1,
-      "name": "pari",
+      "name": "fd",
       "username": "paridhi",
       "email": "pari@gmail.com",
       "address": {
-        "zipcode": "452009"
+        "geo": {
+          "lat": "11"
+        }
       },
       "phone": "4564343",
       "website": "asd",
       "company": {
-        "name": "ghhhhgh"
+        "bs": "ssd"
       }
     },
     {
@@ -203,6 +205,38 @@
         "bs": "ssd"
       },
       "id": 10
+    },
+    {
+      "name": "fd",
+      "username": "shriyanshneema27@gmail.com",
+      "email": "pari@gmail.com",
+      "address": {
+        "geo": {
+          "lng": "-20"
+        }
+      },
+      "phone": "4564343",
+      "website": "asd",
+      "company": {
+        "bs": "synergize scalable supply-chains"
+      },
+      "id": 11
+    },
+    {
+      "name": "pari",
+      "username": "pari",
+      "email": "pari@gmail.com",
+      "address": {
+        "geo": {
+          "lng": "-76.77"
+        }
+      },
+      "phone": "4564343",
+      "website": "anastasia.net",
+      "company": {
+        "bs": "synergize scalable supply-chains"
+      },
+      "id": 12
     }
   ]
 }

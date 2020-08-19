@@ -30,6 +30,7 @@ export class AddUserData extends Component {
             },
             showForm: false
         }
+        this.handleChange = this.handleChange.bind(this);
     }
     handleChange = (event) => {
         switch (event.target.name) {
